@@ -5,7 +5,7 @@ function inverseWhile() {
   while (i >= 0) {
     if (i === 0) {
       fiveNumbers += i;
-      return console.log(fiveNumbers);
+      return fiveNumbers;
     }
     fiveNumbers += i + ", ";
     i--;
